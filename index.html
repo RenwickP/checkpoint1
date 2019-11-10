@@ -16,11 +16,11 @@
   <body>
     <header class="container-fluid bg">
     <div class="row">
-      <div class="col-4"><img class="icon" src="//placehold.it/75x75" alt=""/>
+      <div class="col pt-2 pb-2"><img class="icon" src="//placehold.it/75x75" alt=""/>
       </div>
-      <div class="col-8">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <a class="navbar-brand" href="#">Navbar</a>
+      <div class="col ">
+          <nav class="switch navbar navbar-expand-sm navbar-light navbar-transparent">
+              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -36,65 +36,87 @@
                     <a class="nav-link" href="#">Pricing</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link disabled" href="#">Disabled</a>
                   </li>
                 </ul>
               </div>
             </nav>
-          </div>
-        </nav>
+         
       </div>
-    </div class="col">
-    <div class="row justifed-content-around">
-      <div class="col 4 align-end">
+    </div>
+    
+
+    
+    <div class="row pb-4 flex-sm-row-reverse">
+
+        <div class="col-sm-6 order-xs-1"><div class="video1 embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src=https://www.youtube.com/watch?v=WeA7edXsU40 allowfullscreen></iframe>
+          </div></div>
+
+      <div class="col-sm-6 order-xs-12 first">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque deleniti ab inventore molestias corporis sint libero officiis quasi, illum earum repudiandae dignissimos deserunt nam esse. Vitae similique aut labore nisi!</p>
-        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-success firstbutton">Success</button>
       </div>
-      <div class="col 5 p-3"><div class="video1 embed-responsive embed-responsive-16by9">
+
+      <!-- <div class="col-sm-6 order-xs-1"><div class="video1 embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src=https://www.youtube.com/watch?v=WeA7edXsU40 allowfullscreen></iframe>
-        </div></div>
+        </div></div> -->
+
+
     </div>
-    </div>
-  </header>
-    <main class="container-fluid">
-    <div class="row justify-content-around bg-primary">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" img src="https://images.unsplash.com/photo-1572219479068-8a05d5310ba1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-              <img class="card-img-top" img src="https://images.unsplash.com/photo-1571993192866-202f70b7ec7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" />
-              <div class="card-body">
-                <h5 class="card-title ">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" img src="https://images.unsplash.com/photo-1571993192866-202f70b7ec7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-    </div>
-    <br class="break">
-    <div class="row justify-content-around">
-      <div class="col-6"> <img src="//placehold.it/400x400" alt="" /> </div>
-      <div class="col-6"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam molestias id voluptatum repudiandae incidunt consectetur assumenda ullam minima veniam? Rerum dolorem aliquid iusto quidem? Ex omnis minus id</p></div>
-    </div>
-  
-   
+<!-- deleted a closing div here not sure if it had value -->
     
 
 
+
+  </header>
+    <main class="container-fluid">
+    <div class="row bg-primary justify-content-around pt-5 cardrow">
+        <div class="card bigcard" style="width: 18rem;">
+            <img class="card-img-top" img src="https://images.unsplash.com/photo-1572219479068-8a05d5310ba1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text stay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quis aspernatur natus porro voluptate nisi eum corrupti sit similique harum.</p>
+              <a href="#" class="btn btn-primary drop">One</a>
+            </div>
+          </div>
+          <div class="card bigcard" style="width: 18rem;">
+              <img class="card-img-top" img src="https://images.unsplash.com/photo-1571993192866-202f70b7ec7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" />
+              <div class="card-body">
+                <h5 class="card-title ">Card title</h5>
+                <div class="movish"><p class="card-text stay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nobis molestiae aperiam voluptate optio unde voluptas? Rem itaque quia deleniti?</p></div>
+                <a href="#" class="btn btn-primary drop">Two</a>
+              </div>
+            </div>
+            <div class="card bigcard" style="width: 18rem;">
+                <img class="card-img-top" img src="https://images.unsplash.com/photo-1571993192866-202f70b7ec7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text stay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corrupti facilis ut incidunt nobis deserunt placeat fugit expedita iure accusamus?</p>
+                  <a href="#" class="btn btn-primary drop">Three</a>
+                </div>
+              </div>
+              </div>
+              <div class="row bg-white"></div>
+    <!-- ending div deleted -->
+    
+
+    <div class="row justify-content-space-around pr-4 pl-4 pt-4 try">
+      <div class="col-md-6 col-sm-12 text-center"> <img class="img-fluid problem" src="https://images.unsplash.com/photo-1570171278960-d6c2b316f3b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" /> </div>
+      <div class="col-md-6 col-sm-12 text-center"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam molestias id voluptatum repudiandae incidunt consectetur assumenda ullam minima veniam? Rerum dolorem aliquid iusto quidem? Ex omnis minus id ctetur assumenda ullam minima veniam? Rerum dolorem aliquid iusto quidem? Ex omnis minus id ctetur assumenda ullam minima veniam? Rerum dolorem aliquid iusto</p></div>
+    </div>
+  
+    <div class="row bg-danger row justify-content-center bottom">
+      <div class="col-12 box5"><img src="//placehold.it/75x75" alt="" /></div>
+    </div>
+   
     </main>
-    <footer></footer>
+    <footer class="container-fluid end bg-primary beep">
+      <div class="row">
+        <div class="col-sm-6 text-sm-left end"><img src="//placehold.it/20x4" alt="" /></div>
+        <div class="col-sm-6 text-sm-right end"><img src="//placehold.it/20x4" alt="" /></div>
+      </div>
+    </footer>
   </body>
 </html>
 
