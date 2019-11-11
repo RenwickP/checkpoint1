@@ -13,9 +13,7 @@
 
 }
 
-.bigcard {
-  position: relative;
-}
+
 .card-img-top {
   border-radius: 50%;
   max-height: 200px;
@@ -60,11 +58,7 @@
   max-height: 5vh;
   max-width: 100vh;
 }
-.card-body {
-  position: relative;
-}
-.problem {
-  
+
 }
 .try{
   margin-top: 5vh;
@@ -90,18 +84,21 @@
 .switch {
   margin-left: 17vh;
 }
-.card-body {
-  position: relative;
- 
-  
-}
-
-.movish {
-  margin-top: 90%
-  
-}
 
 .drop {
   position: absolute;
   margin-left: 30%;
+ 
+}
+.bigcard {
+  margin-top: 5vh;
+  border: none;
+}
+.card-body {
+  position: relative;
+  bottom: 0em;
+}
+
+.collapse{
+    justify-content: flex-end;
 }
