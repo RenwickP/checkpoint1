@@ -6,20 +6,17 @@
 }
 
 .navbar {
-  
 }
 .list {
   margin-left: 70vh;
-
 }
-
 
 .card-img-top {
   border-radius: 50%;
   max-height: 200px;
   max-width: 200px;
   align-self: center;
-
+  margin-top: 25px;
 }
 .firstbutton {
   width: -webkit-fill-available;
@@ -28,11 +25,11 @@
 .first {
   margin-block-start: auto;
 }
-.break {
+/* .break {
   width: 100%;
   border-top-color: blueviolet;
   borderheight: 1px;
-}
+} */
 
 .card-title {
   text-align: center;
@@ -47,24 +44,20 @@
 .box3 {
   align-items: flex-center;
   margin-top: 10vh;
-  margin-left 3vh;
-  margin-right 3vh;
-  margin-bottom 8vh;
+  margin-left: 3vh;
+  margin-right: 3vh;
+  margin-bottom: 8vh;
 }
-
-
 
 .scary {
   max-height: 5vh;
   max-width: 100vh;
 }
 
-}
-.try{
+.try {
   margin-top: 5vh;
   border-top: solid;
   border-color: lightcoral;
-  
 }
 .bottom {
   margin-top: 5vh;
@@ -76,7 +69,6 @@
   justify-content: center;
 }
 
-
 .end {
   text-align: center;
 }
@@ -86,19 +78,25 @@
 }
 
 .drop {
-  position: absolute;
-  margin-left: 30%;
- 
+  position: relative;
+  margin-bottom: -10%;
+  padding: -4em;
 }
 .bigcard {
-  margin-top: 5vh;
+  /* margin-top: 5vh; */
   border: none;
 }
 .card-body {
   position: relative;
-  bottom: 0em;
+  margin-bottom: -130px;
+  /* bottom: -4em; */
+  padding-top: 5px;
+  padding-bottom: 110px;
 }
 
-.collapse{
-    justify-content: flex-end;
+.height {
+  height: 50px;
+}
+.collapse {
+  justify-content: flex-end;
 }
